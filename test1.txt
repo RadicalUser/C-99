@@ -1,0 +1,16 @@
+import os
+os.system("Date")
+#os.mkdir("Python")
+
+print(os.getcwd())
+
+a = "/Users/username5629/Desktop/C-99/test.txt"
+ifExist = os.path.exists(a)
+
+print(ifExist)
+
+root_exe = os.path.splitext(a)
+print('root', root_exe[0])
+print('exe', root_exe[1])
+
+print(os.listdir())
